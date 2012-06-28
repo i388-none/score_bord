@@ -127,7 +127,7 @@ class ScoreImage {
     system("convert -size 240x58 xc:darkgreen -fill white {$line} -font {$font} -pointsize 12 {$score_txt} out.jpg");
     
     header('Content-type: image/jpeg');
-    readfile('/virtual/w32none/public_html/sqoox.info/score/out.jpg');
+    readfile('--OUT_PUT_PATH---/out.jpg');
   }
 }
 ?>
